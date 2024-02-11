@@ -1,13 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <link rel="shortcut icon" href="src/terminal-svgrepo-com.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="src/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widow manager selector</title>
+  <script src="src/questions.jsx"></script>
+</head>
+<body>
+  <header class="header" id="nav">
+    <a href="https://github.com/Mabarod1432">
+      <img src="src/github-mark-white.svg" alt="" class="ghImg">
+   </a>
+   <h1 class="thanks">Thanks and welcome</h1>
+  </header>
+  <main>
+  <div class="questions" id="canvas">
+    <div class="question1" id="q1">
+      <form action="qq1">
+        <h2 class="titleq">What is your current linux OS based on?</h2>
+        <h3 class="instructions">Choose one:</h3>
+        <h4>In case you dont know see the <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">linux distros wiki</a></h4>
+        <input type="radio" value="ubundeb">Ubuntu/debian
+        <input type="radio" value id="arch">Arch based
+        <input type="radio" value="pacman" id="">Pacman based
+        <input type="radio" value="rpm" id="">RPM based
+        
+      </form>
+      <input type="submit" value="next question" class="nextq">
+      <p class="incase">In case you dont have choosen a distro yet search here in <a href="https://distrochooser.de/-"> Distrochooser</a></p>
+    </div>
+    <div class="question2" id="q2">
+	  </div>
+    <div class="question3" id="q3"></div>
+    <div class="question4" id="q4"></div>
+    <div class="question5" id="q5"></div>
+    <div class="question6" id="q6"></div>
+    <div class="question7" id="q7"></div>
+    <div class="question8" id="q8"></div>
+    <div class="question9" id="q9"></div>
+    <div class="question10" id="q10"></div>
+    <div class="question11" id="q11"></div>
+    <div class="question12" id="q12"></div>
+    <div class="question13" id="q13"></div>
+  </div>
+  </main>
+</body>
 </html>
